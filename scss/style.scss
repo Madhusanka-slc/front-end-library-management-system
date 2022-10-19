@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    background-color: gainsboro;
+    width: 200px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3rem;
+        color: black;
+        height: 100%;
+        text-decoration: none;
+        justify-content: space-around;
+
+        ion-icon{
+            font-size: 5rem;
+            padding: 10px;
+        }
+
+        div{
+            padding: 15px;
+        }
+    }
+   
+}
